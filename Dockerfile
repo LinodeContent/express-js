@@ -1,7 +1,7 @@
 FROM node:6-alpine
 
 # Create app directory
-WORKDIR ~/app
+WORKDIR /app
 
 # Install app dependencies
 COPY package.json .
