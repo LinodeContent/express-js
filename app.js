@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const app = express();
 
 // Server connection
 const PORT = 9000;
