@@ -16,4 +16,5 @@ RUN npm install
 #COPY . .
 
 EXPOSE 9000
-CMD [ "node", "app.js" ]
+EXPOSE 9001
+EXPOSE 9002
