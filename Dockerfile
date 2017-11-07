@@ -1,7 +1,7 @@
 FROM node:6-alpine
 
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR ~/app
 
 # Install app dependencies
 COPY package.json .
@@ -16,4 +16,4 @@ RUN npm install
 #COPY . .
 
 EXPOSE 9000
-CMD [ "npm", "start" ]
+#CMD [ "npm", "start" ]
